@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nadine Adam Chemtech and the Journey from Distribution to Medical Technology</title>
+<meta name="description" content="Discover Nadine Adam Chemtech and Nadine Adam’s journey from Nadine Chemtech to Nadine Adam Medtech Mauritius.">
+<meta name="keywords" content="Nadine Adam Chemtech, Nadine Adam, Nadine Chemtech, Nadine Adam Medtech, Nadine Adam Medtech Mauritius">
+<script>document.documentElement.classList.add("js");</script>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+
+<style>
+/* ==========================================================
+   DESIGN TOKENS
+   ========================================================== */
+:root{
+  /* ---- COLOUR THEME: "royal" (default) – deep indigo, royal blue, sky, warm orange ---- */
+  --ink:        #0E1A44;   /* darkest – dark sections, headings */
+  --ink-2:      #16276B;   /* dark panels */
+  --teal:       #2451D6;   /* primary brand colour */
+  --teal-dark:  #1B3FAF;
+  --grad-a:     #3B7BF0;   /* gradient partner of primary */
+  --aqua:       #38A8F5;   /* light highlight */
+  --mint:       #A9D4FF;
+  --glass:      #E7EEFF;   /* soft tint backgrounds */
+  --glass-2:    #CDDBFB;
+  --glass-3:    #F0F5FF;
+  --shell:      #F8FAFF;   /* page background */
+  --white:      #FFFFFF;
+  --sun:        #FF9A3D;   /* accent / buttons */
+  --sun-light:  #FFB870;
+  --sun-dark:   #EE7F1B;
+  --text:       #1C2748;
+  --muted:      #526086;
+  --line:       #D9E1F5;
+  --on-dark:    #D6E2FF;   /* text on dark sections */
+  --on-dark-2:  #C3D3F7;
+  --on-dark-3:  #B4C5EA;
+  /* same colours as R,G,B – used for glows and shadows */
+  --ink-rgb:14,26,68; --teal-rgb:36,81,214; --aqua-rgb:56,168,245; --sun-rgb:255,154,61; --mint-rgb:169,212,255; --shell-rgb:248,250,255;
+
+
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --font-body:    "Figtree", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+
+
+  --radius: 22px;
+  --wrap: 1200px;
+  --bleed: 56px;
+  --pad: clamp(4rem, 8vw, 7rem);
+  --plus: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52'%3E%3Cpath d='M26 21v10M21 26h10' stroke='white' stroke-opacity='.07' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+
+/* ==========================================================
+   OPTIONAL THEMES – switch by changing the <html> tag, e.g. <html lang="en" data-theme="emerald">
+   Available: lagoon, emerald, plum. (No attribute = royal, the default.)
+   ========================================================== */
+html[data-theme="lagoon"]{
+  --ink:#08283A; --ink-2:#0B3A4B; --teal:#0F7C86; --teal-dark:#0B6169; --grad-a:#14A3A0; --aqua:#22C1BE; --mint:#8FE3DC;
+  --glass:#E3F2F1; --glass-2:#C9E5E3; --glass-3:#EEF8F7; --shell:#F7FBFB;
+  --sun:#F5B335; --sun-light:var(--sun-light); --sun-dark:#DE9B17;
+  --text:#1B3441; --muted:#4C6670; --line:#D3E4E4;
+  --on-dark:var(--on-dark); --on-dark-2:var(--on-dark-2); --on-dark-3:var(--on-dark-3);
+  --ink-rgb:8,40,58; --teal-rgb:15,124,134; --aqua-rgb:34,193,190; --sun-rgb:245,179,53; --mint-rgb:143,227,220; --shell-rgb:247,251,251;
+}
+html[data-theme="emerald"]{
+  --ink:#0B2A22; --ink-2:#103D32; --teal:#12805A; --teal-dark:#0C6444; --grad-a:#21A06F; --aqua:#2BC48A; --mint:#9BE8C7;
+  --glass:#E4F5EC; --glass-2:#C6E7D6; --glass-3:#F0F9F4; --shell:#F6FBF8;
+  --sun:#F4C430; --sun-light:#FFDA66; --sun-dark:#DDA90F;
+  --text:#1B342B; --muted:#4E675C; --line:#D2E6DB;
+  --on-dark:#D3EEE1; --on-dark-2:#C0E3D1; --on-dark-3:#B0D6C3;
+  --ink-rgb:11,42,34; --teal-rgb:18,128,90; --aqua-rgb:43,196,138; --sun-rgb:244,196,48; --mint-rgb:155,232,199; --shell-rgb:246,251,248;
+}
+html[data-theme="plum"]{
+  --ink:#24103F; --ink-2:#34196B; --teal:#6D3BD1; --teal-dark:#5427B0; --grad-a:#8B5CE6; --aqua:#B26CF5; --mint:#DDBFFF;
+  --glass:#F0E9FF; --glass-2:#DDD0F8; --glass-3:#F7F3FF; --shell:#FBF9FF;
+  --sun:#FF5FA2; --sun-light:#FF8DBD; --sun-dark:#EB3F89;
+  --text:#2A1E48; --muted:#62568A; --line:#E4DCF5;
+  --on-dark:#E4D9FA; --on-dark-2:#D5C7F3; --on-dark-3:#C6B7E8;
+  --ink-rgb:36,16,63; --teal-rgb:109,59,209; --aqua-rgb:178,108,245; --sun-rgb:255,95,162; --mint-rgb:221,191,255; --shell-rgb:251,249,255;
+}
+
+
+/* ==========================================================
+   BASE
+   ========================================================== */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font-body);font-size:1.06rem;line-height:1.78;
+  color:var(--text);background:var(--shell);-webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img,svg{max-width:100%}
+a{color:var(--teal-dark)}
+h1,h2,h3{font-family:var(--font-display);color:var(--ink);line-height:1.1;margin:0 0 1.2rem;letter-spacing:-.02em}
+h1{font-size:clamp(2.5rem,5.6vw,4.5rem);font-weight:800}
+h2{font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:700}
+h3{font-size:1.3rem;font-weight:600;letter-spacing:-.01em}
+p{margin:0 0 1.2rem;max-width:68ch}
+section[id]{scroll-margin-top:76px}
+.wrap{width:min(var(--wrap),100% - 2.5rem);margin-inline:auto}
+
+
+.icon{width:1.25em;height:1.25em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px;border-radius:8px}
+.skip{position:absolute;left:-999px;top:0;background:var(--sun);color:var(--ink);padding:.6rem 1rem;z-index:200}
+.skip:focus{left:1rem;top:1rem}
+
+
+/* scroll progress bar */
+.progress{position:fixed;top:0;left:0;height:4px;width:100%;z-index:120;
+  background:linear-gradient(90deg,var(--sun),var(--aqua));transform:scaleX(0);transform-origin:left}
+
+
+/* ==========================================================
+   BUTTONS
+   ========================================================== */
+.btn{
+  position:relative;overflow:hidden;
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  font-family:var(--font-body);font-weight:600;font-size:1rem;line-height:1;
+  padding:1rem 1.7rem;border-radius:999px;border:2px solid transparent;
+  text-decoration:none;cursor:pointer;
+  transition:transform .2s ease, box-shadow .2s ease, background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+.btn .icon{width:1.1em;height:1.1em;transition:transform .2s ease}
+.btn:hover{transform:translateY(-3px)}
+.btn:hover .icon{transform:translateX(4px)}
+.btn::after{ /* light sweep on hover */
+  content:"";position:absolute;top:0;left:-70%;width:45%;height:100%;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.4),transparent);
+  transform:skewX(-20deg);transition:left .55s ease;
+}
+.btn:hover::after{left:130%}
+.btn-sun{background:linear-gradient(135deg,var(--sun-light),var(--sun));color:var(--ink);box-shadow:0 12px 26px -14px rgba(var(--sun-rgb),.95)}
+.btn-sun:hover{box-shadow:0 18px 32px -14px rgba(var(--sun-rgb),1)}
+.btn-teal{background:linear-gradient(135deg,var(--grad-a),var(--teal));color:#fff;box-shadow:0 12px 26px -14px rgba(var(--teal-rgb),.95)}
+.btn-teal:hover{box-shadow:0 18px 32px -14px rgba(var(--teal-rgb),1)}
+.btn-line{background:rgba(255,255,255,.06);color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-line:hover{background:rgba(255,255,255,.16);border-color:#fff}
+.btn-line-dark{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn-line-dark:hover{background:var(--ink);color:#fff}
+.btn-row{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:2rem}
+
+
+/* ==========================================================
+   MENU BAR
+   ========================================================== */
+.site-header{
+  position:sticky;top:0;z-index:100;
+  background:rgba(var(--shell-rgb),.86);
+  backdrop-filter:saturate(1.5) blur(14px);-webkit-backdrop-filter:saturate(1.5) blur(14px);
+  border-bottom:1px solid var(--line);
+}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:72px}
+.nav-links{display:flex;align-items:center;gap:.25rem;list-style:none;margin:0;padding:0}
+.nav-links a{
+  display:block;padding:.6rem 1.1rem;border-radius:999px;
+  font-weight:500;font-size:.98rem;color:var(--ink);text-decoration:none;
+  transition:background-color .2s ease,color .2s ease;
+}
+.nav-links a:hover{background:var(--glass)}
+.nav-links a.active{background:var(--ink);color:#fff}
+.nav-cta{padding:.8rem 1.4rem;font-size:.95rem}
+.nav-toggle{
+  display:none;background:var(--ink);color:#fff;border:0;border-radius:999px;
+  padding:.7rem 1.3rem;font:600 .95rem var(--font-body);cursor:pointer;
+}
+
+
+/* ==========================================================
+   HERO
+   ========================================================== */
+.hero{
+  position:relative;overflow:hidden;color:#fff;isolation:isolate;
+  background:
+    radial-gradient(800px 520px at 88% 8%, rgba(var(--aqua-rgb),.5), transparent 62%),
+    radial-gradient(640px 460px at 4% 96%, rgba(var(--teal-rgb),.5), transparent 62%),
+    radial-gradient(420px 320px at 50% 0%, rgba(var(--sun-rgb),.12), transparent 70%),
+    var(--ink);
+  padding:clamp(3.5rem,7vw,6rem) 0 clamp(8rem,13vw,11rem);
+}
+.hero::before{ /* medical plus pattern */
+  content:"";position:absolute;inset:0;background-image:var(--plus);z-index:-2;
+  -webkit-mask-image:linear-gradient(180deg,#000 30%,transparent 95%);mask-image:linear-gradient(180deg,#000 30%,transparent 95%);
+}
+.orb{position:absolute;border-radius:50%;z-index:-1;pointer-events:none}
+.orb-1{width:520px;height:520px;right:-140px;top:-160px;border:2px solid rgba(var(--mint-rgb),.22);box-shadow:0 0 0 46px rgba(var(--mint-rgb),.05),0 0 0 100px rgba(var(--mint-rgb),.035)}
+.orb-2{width:260px;height:260px;left:-90px;bottom:60px;background:radial-gradient(circle at 35% 35%,rgba(var(--sun-rgb),.35),rgba(var(--sun-rgb),0) 70%)}
+
+
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:clamp(2rem,6vw,5rem);align-items:center}
+.hero h1{color:#fff;max-width:17ch}
+.hero .lead{font-size:clamp(1.12rem,1.6vw,1.32rem);line-height:1.65;color:var(--on-dark);max-width:54ch}
+
+
+.pills{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2.2rem}
+.pill{
+  display:inline-flex;align-items:center;gap:.5rem;padding:.5rem 1rem .5rem .8rem;border-radius:999px;
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);color:var(--on-dark);font-size:.93rem;font-weight:500;line-height:1;
+  backdrop-filter:blur(4px);
+}
+.pill .icon{color:var(--sun);width:1.05em;height:1.05em}
+
+
+.ecg{position:absolute;left:0;right:0;bottom:11%;width:100%;height:120px;z-index:-1;opacity:.55}
+.ecg path{fill:none;stroke:var(--sun);stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round;
+  vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;animation:ecg 3.2s .4s ease-out forwards}
+@keyframes ecg{to{stroke-dashoffset:0}}
+
+
+.hero-wave{position:absolute;left:0;right:0;bottom:-1px;width:100%;height:clamp(60px,9vw,130px);z-index:0}
+
+
+/* route card */
+.route-wrap{position:relative}
+.route-wrap::before{
+  content:"";position:absolute;inset:-18px;border-radius:32px;
+  background:linear-gradient(140deg,rgba(var(--sun-rgb),.55),rgba(var(--aqua-rgb),.25) 45%,transparent 70%);
+  filter:blur(26px);opacity:.55;z-index:-1;
+}
+.route{
+  position:relative;list-style:none;margin:0;padding:2.1rem 2rem 2.1rem 2.7rem;
+  background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.05));
+  border:1px solid rgba(255,255,255,.24);border-radius:26px;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  box-shadow:0 30px 60px -30px rgba(0,0,0,.6);
+}
+.route::before{
+  content:"";position:absolute;left:1.6rem;top:2.9rem;bottom:2.9rem;width:2px;
+  background:linear-gradient(var(--sun),rgba(var(--sun-rgb),.15));
+  transform-origin:top;animation:drawLine 1.4s .3s cubic-bezier(.2,.7,.2,1) both;
+}
+.route li{position:relative;padding:0 0 2rem 1.2rem;animation:nodeIn .6s both}
+.route li:last-child{padding-bottom:0}
+.route li:nth-child(1){animation-delay:.35s}
+.route li:nth-child(2){animation-delay:.85s}
+.route li:nth-child(3){animation-delay:1.35s}
+.route li::before{
+  content:"";position:absolute;left:-1.6rem;top:.6rem;width:14px;height:14px;border-radius:50%;
+  background:var(--sun);box-shadow:0 0 0 5px rgba(var(--sun-rgb),.24);
+}
+.route li:last-child::before{background:#fff;box-shadow:0 0 0 5px rgba(255,255,255,.28);animation:pulse 2.4s 2s infinite}
+.route strong{display:block;font-family:var(--font-display);font-size:1.85rem;font-weight:700;line-height:1.1;color:#fff}
+.route span{display:block;color:var(--on-dark-2);font-size:.98rem;line-height:1.5;margin-top:.3rem}
+@keyframes drawLine{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes nodeIn{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.5)}70%{box-shadow:0 0 0 14px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+
+
+/* ==========================================================
+   FACT STRIP
+   ========================================================== */
+.facts{position:relative;z-index:3;margin-top:-4.2rem}
+.facts-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);
+  background:var(--white);border:1px solid var(--line);border-radius:26px;
+  box-shadow:0 34px 60px -34px rgba(var(--ink-rgb),.55);
+}
+.fact{padding:1.6rem 1.3rem;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:.15rem}
+.fact:last-child{border-right:0}
+.fact .fi{
+  width:44px;height:44px;border-radius:14px;display:grid;place-items:center;margin-bottom:.7rem;
+  background:linear-gradient(135deg,var(--glass),var(--glass-2));color:var(--teal-dark);
+}
+.fact b{font-family:var(--font-display);font-size:2rem;line-height:1.05;color:var(--ink);font-weight:800}
+.fact:nth-child(4) b{font-size:1.45rem;line-height:1.35;padding-top:.15rem}
+.fact span{font-size:.93rem;line-height:1.4;color:var(--muted);margin-top:.25rem}
+
+
+/* ==========================================================
+   SECTIONS
+   ========================================================== */
+.section{position:relative;padding:var(--pad) 0}
+.section.before-dark{padding-bottom:calc(var(--pad) + var(--bleed))}
+.section.after-dark{padding-top:calc(var(--pad) + var(--bleed))}
+.section-alt{background:linear-gradient(180deg,var(--glass),var(--glass-3))}
+.section-white{background:var(--white)}
+.section-dark{
+  z-index:2;margin:calc(var(--bleed) * -1) 0;border-radius:var(--bleed);color:var(--on-dark);overflow:hidden;
+  background:
+    radial-gradient(620px 380px at 92% 8%, rgba(var(--aqua-rgb),.28), transparent 65%),
+    radial-gradient(520px 340px at 0% 100%, rgba(var(--sun-rgb),.13), transparent 65%),
+    var(--plus),
+    var(--ink-2);
+}
+.section-dark h2,.section-dark h3{color:#fff}
+.section-dark p{color:var(--on-dark)}
+
+
+.split{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);gap:clamp(2rem,6vw,5rem);align-items:start}
+.split-head{position:sticky;top:110px}
+.split-head h2{margin-bottom:0}
+.bar::after,.split-head h2::after{
+  content:"";display:block;width:68px;height:6px;border-radius:6px;margin-top:1.3rem;
+  background:linear-gradient(90deg,var(--sun),var(--aqua));
+}
+
+
+/* intro */
+.intro-quote{
+  position:relative;margin:0;padding:2.4rem 2rem 2rem 2.2rem;border-radius:var(--radius);
+  background:linear-gradient(150deg,var(--ink),var(--ink-2));color:#fff;
+  font-family:var(--font-display);font-size:clamp(1.25rem,2.1vw,1.6rem);line-height:1.38;font-weight:500;max-width:none;
+  box-shadow:0 30px 50px -32px rgba(var(--ink-rgb),.7);overflow:hidden;
+}
+.intro-quote::before{
+  content:"\201C";position:absolute;top:-.15em;left:.25rem;font-size:8rem;line-height:1;color:var(--sun);opacity:.85;font-family:Georgia,serif;
+}
+.intro-quote span{position:relative;display:block;padding-top:1.6rem}
+
+
+/* story watermark */
+.watermark{
+  font-family:var(--font-display);font-weight:800;font-size:clamp(5rem,12vw,9.5rem);line-height:.9;letter-spacing:-.04em;margin:1.8rem 0 0;
+  color:transparent;-webkit-text-stroke:2px var(--glass-2);user-select:none;
+}
+
+
+/* transition diagram */
+.flow{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;align-items:stretch;gap:.9rem;margin:2.4rem 0 3rem}
+.flow-step{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.5rem 1.4rem;
+  box-shadow:0 20px 34px -30px rgba(var(--ink-rgb),.6);
+}
+.flow-step strong{display:block;font-family:var(--font-display);font-size:1.45rem;color:var(--ink);line-height:1.15}
+.flow-step span{display:block;font-size:.96rem;line-height:1.5;color:var(--muted);margin-top:.45rem}
+.flow-step.now{background:linear-gradient(150deg,var(--teal),var(--grad-a));border-color:transparent;box-shadow:0 24px 40px -26px rgba(var(--teal-rgb),.9)}
+.flow-step.now strong{color:#fff}
+.flow-step.now span{color:rgba(255,255,255,.9)}
+.flow-arrow{
+  align-self:center;width:42px;height:42px;border-radius:50%;display:grid;place-items:center;
+  background:var(--ink);color:var(--sun);
+}
+
+
+/* chips */
+.chips{list-style:none;margin:1.7rem 0 1.9rem;padding:0;display:flex;flex-wrap:wrap;gap:.65rem}
+.chips li{
+  display:inline-flex;align-items:center;gap:.55rem;
+  background:var(--white);border:1px solid var(--glass-2);color:var(--ink);
+  font-weight:500;font-size:.99rem;padding:.6rem 1.15rem .6rem .95rem;border-radius:999px;line-height:1.3;
+  box-shadow:0 10px 18px -16px rgba(var(--ink-rgb),.7);
+  transition:background-color .2s ease,color .2s ease,transform .2s ease,border-color .2s ease;
+}
+.chips li::before{content:"";width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--sun),var(--aqua))}
+.chips li:hover{background:var(--ink);color:#fff;border-color:var(--ink);transform:translateY(-3px)}
+
+
+/* portfolio */
+.portfolio-intro{max-width:68ch}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:2.8rem 0 2.4rem}
+.card{
+  position:relative;overflow:hidden;
+  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:1.9rem 1.7rem 1.7rem;
+  transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.card::after{ /* corner glow */
+  content:"";position:absolute;right:-60px;top:-60px;width:170px;height:170px;border-radius:50%;
+  background:radial-gradient(circle,rgba(var(--aqua-rgb),.22),transparent 68%);transition:transform .35s ease;
+}
+.card:hover{transform:translateY(-8px);border-color:var(--aqua);box-shadow:0 34px 50px -34px rgba(var(--ink-rgb),.6)}
+.card:hover::after{transform:scale(1.5)}
+.card-icon{
+  position:relative;z-index:1;width:60px;height:60px;border-radius:18px;display:grid;place-items:center;margin-bottom:1.3rem;
+  background:linear-gradient(135deg,var(--grad-a),var(--teal));color:#fff;
+  box-shadow:0 14px 24px -14px rgba(var(--teal-rgb),.95);transition:background .25s ease,color .25s ease,transform .25s ease;
+}
+.card-icon .icon{width:28px;height:28px}
+.card:hover .card-icon{background:linear-gradient(135deg,var(--sun-light),var(--sun));color:var(--ink);transform:rotate(-6deg) scale(1.05)}
+.card h3{position:relative;z-index:1;margin-bottom:.7rem}
+.card p{position:relative;z-index:1;margin:0;font-size:1rem;line-height:1.65;color:var(--muted)}
+
+
+/* regions */
+.regions{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:0 0 2.2rem;padding:0;list-style:none}
+.regions li{
+  position:relative;overflow:hidden;min-height:150px;border-radius:var(--radius);padding:1.5rem 1.4rem;
+  display:flex;flex-direction:column;justify-content:flex-end;gap:.6rem;
+  font-family:var(--font-display);font-size:1.6rem;font-weight:700;line-height:1.1;color:#fff;
+  transition:transform .25s ease;
+}
+.regions li:hover{transform:translateY(-6px)}
+.regions li:nth-child(1){background:linear-gradient(150deg,var(--teal),var(--grad-a))}
+.regions li:nth-child(2){background:linear-gradient(150deg,var(--ink),var(--ink-2))}
+.regions li:nth-child(3){background:linear-gradient(150deg,var(--sun-light),var(--sun-dark));color:var(--ink)}
+.regions li::after{
+  content:"";position:absolute;right:-36px;top:-36px;width:130px;height:130px;border-radius:50%;
+  border:2px solid rgba(255,255,255,.4);box-shadow:0 0 0 16px rgba(255,255,255,.1),0 0 0 34px rgba(255,255,255,.06);
+}
+.regions li:nth-child(3)::after{border-color:rgba(var(--ink-rgb),.3);box-shadow:0 0 0 16px rgba(var(--ink-rgb),.07),0 0 0 34px rgba(var(--ink-rgb),.04)}
+.regions .icon{width:1.3rem;height:1.3rem}
+
+
+/* audiences */
+.audiences{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem;margin:2.6rem 0 0}
+.aud{
+  border-radius:var(--radius);padding:2rem 1.8rem;background:var(--white);border:1px solid var(--line);
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.aud:hover{transform:translateY(-6px);box-shadow:0 30px 44px -32px rgba(var(--ink-rgb),.7)}
+.aud .ai{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;margin-bottom:1.3rem;background:var(--glass);color:var(--teal-dark)}
+.aud .ai .icon{width:26px;height:26px}
+.aud p{margin:0;font-size:1.1rem;line-height:1.6}
+.aud:nth-child(2){background:linear-gradient(150deg,var(--teal),var(--grad-a));border-color:transparent}
+.aud:nth-child(3){background:linear-gradient(150deg,var(--ink),var(--ink-2));border-color:transparent}
+.aud:nth-child(2) p,.aud:nth-child(3) p{color:#fff}
+.aud:nth-child(2) .ai,.aud:nth-child(3) .ai{background:rgba(255,255,255,.18);color:#fff}
+
+
+/* leadership emphasis */
+.lead-line{font-family:var(--font-display);font-size:clamp(1.3rem,2.2vw,1.75rem);line-height:1.4;font-weight:500;color:var(--ink);max-width:36ch;
+  border-left:6px solid var(--sun);padding-left:1.4rem;margin-bottom:1.8rem}
+
+
+/* today */
+.big-line{font-family:var(--font-display);font-size:clamp(1.4rem,2.6vw,2.1rem);line-height:1.32;color:var(--ink);font-weight:600;max-width:36ch}
+.today-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.6rem 3rem;margin-top:2.2rem;padding:2.2rem;border-radius:var(--radius);
+  background:linear-gradient(150deg,var(--glass),var(--glass-3));border:1px solid var(--glass-2)}
+.today-grid p{max-width:none;margin:0}
+.today-grid p:first-child{grid-column:1/-1;font-size:1.12rem}
+
+
+/* ==========================================================
+   ARTICLES / EMBED SECTION
+   ========================================================== */
+.articles-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:1.5rem;margin-bottom:2.6rem}
+.articles-head h2{margin:0}
+.articles-head p{margin:1rem 0 0;font-size:1.12rem}
+.embed-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.6rem}
+.embed-card{
+  background:var(--white);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  display:flex;flex-direction:column;box-shadow:0 22px 36px -30px rgba(var(--ink-rgb),.55);
+  transition:box-shadow .25s ease, transform .25s ease;
+}
+.embed-card:hover{box-shadow:0 34px 50px -30px rgba(var(--ink-rgb),.65);transform:translateY(-6px)}
+.embed-bar{display:flex;align-items:center;gap:.45rem;padding:.75rem 1rem;background:var(--ink);}
+.embed-bar i{width:10px;height:10px;border-radius:50%;background:#FF6B6B;display:block}
+.embed-bar i:nth-child(2){background:var(--sun)}
+.embed-bar i:nth-child(3){background:#3DD68C}
+.embed-bar em{font-style:normal;margin-left:.6rem;flex:1;min-width:0;background:rgba(255,255,255,.1);color:var(--on-dark-2);font-size:.82rem;line-height:1;padding:.42rem .8rem;border-radius:999px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.embed-frame{position:relative;height:340px;background:var(--glass)}
+.embed-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#fff}
+.embed-empty{
+  height:100%;display:flex;flex-direction:column;gap:.7rem;align-items:center;justify-content:center;text-align:center;padding:1.5rem;
+  color:var(--muted);font-size:.98rem;line-height:1.5;
+}
+.embed-empty .icon{width:34px;height:34px;color:var(--teal)}
+.embed-body{padding:1.3rem 1.5rem 1.6rem;display:flex;flex-direction:column;gap:1rem;flex:1;justify-content:space-between}
+.embed-body h3{margin:0;font-size:1.18rem}
+.embed-body .btn{align-self:flex-start;padding:.8rem 1.35rem;font-size:.95rem}
+
+
+/* ==========================================================
+   FOOTER + BACK-TO-TOP
+   ========================================================== */
+.site-footer{
+  position:relative;z-index:2;margin-top:calc(var(--bleed) * -1);border-radius:var(--bleed) var(--bleed) 0 0;
+  color:var(--on-dark-3);padding:4.2rem 0 2.6rem;
+  background:radial-gradient(600px 300px at 90% 0%,rgba(var(--aqua-rgb),.22),transparent 65%),var(--plus),var(--ink);
+}
+.footer-grid{display:flex;flex-wrap:wrap;gap:2rem;justify-content:space-between;align-items:center}
+.footer-title{font-family:var(--font-display);font-size:1.6rem;color:#fff;font-weight:700;margin:0;max-width:20ch;line-height:1.15}
+.footer-links{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem}
+.footer-links a{color:var(--on-dark-3);text-decoration:none;font-weight:500}
+.footer-links a:hover{color:var(--sun)}
+
+
+.to-top{
+  position:fixed;right:1.3rem;bottom:1.3rem;z-index:90;width:52px;height:52px;border-radius:50%;border:0;cursor:pointer;
+  background:linear-gradient(135deg,var(--sun-light),var(--sun));color:var(--ink);display:grid;place-items:center;
+  box-shadow:0 16px 30px -12px rgba(var(--ink-rgb),.7);
+  opacity:0;transform:translateY(16px);pointer-events:none;transition:opacity .25s ease,transform .25s ease;
+}
+.to-top.show{opacity:1;transform:none;pointer-events:auto}
+.to-top .icon{transform:rotate(-90deg);width:22px;height:22px}
+
+
+/* ==========================================================
+   REVEAL (progressive enhancement)
+   ========================================================== */
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.js .reveal.in{opacity:1;transform:none}
+
+
+/* ==========================================================
+   RESPONSIVE
+   ========================================================== */
+@media (max-width:1020px){
+  .hero-grid{grid-template-columns:1fr}
+  .hero h1{max-width:20ch}
+  .route-wrap{max-width:540px}
+  .facts-grid{grid-template-columns:repeat(3,1fr)}
+  .fact:nth-child(3){border-right:0}
+  .fact:nth-child(-n+3){border-bottom:1px solid var(--line)}
+  .split{grid-template-columns:1fr}
+  .split-head{position:static}
+  .watermark{display:none}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .audiences{grid-template-columns:1fr}
+  .today-grid{grid-template-columns:1fr}
+}
+@media (max-width:860px){
+  :root{--bleed:34px}
+  .nav{flex-wrap:wrap;padding:.6rem 0}
+  .nav-toggle{display:inline-flex;margin-left:auto;order:2}
+  .nav-cta{display:none}
+  .nav-links{order:3;width:100%;flex-direction:column;align-items:stretch;max-height:0;overflow:hidden;transition:max-height .3s ease}
+  .nav-links.open{max-height:520px;padding-bottom:.6rem}
+  .nav-links a{border-radius:14px}
+  .flow{grid-template-columns:1fr}
+  .flow-arrow{transform:rotate(90deg);justify-self:center}
+  .regions{grid-template-columns:1fr}
+  .regions li{min-height:120px}
+}
+@media (max-width:640px){
+  .facts-grid{grid-template-columns:repeat(2,1fr)}
+  .fact,.fact:nth-child(3){border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .fact:nth-child(2n){border-right:0}
+  .fact:last-child{grid-column:1/-1;border-bottom:0;border-right:0}
+  .cards{grid-template-columns:1fr}
+  .btn-row .btn{flex:1 1 100%}
+  .today-grid{padding:1.5rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .ecg path{stroke-dashoffset:0}
+}
+</style>
+</head>
+
+
+<body id="home">
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress"></div>
+
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" y1="4" x2="8.12" y2="15.88"/><line x1="14.47" y1="14.48" x2="20" y2="20"/><line x1="8.12" y1="8.12" x2="12" y2="12"/></symbol>
+    <symbol id="i-monitor" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="i-bone" viewBox="0 0 24 24"><path d="M17 10c.7-.7 1.69 0 2.5 0a2.5 2.5 0 1 0 0-5 .5.5 0 0 1-.5-.5 2.5 2.5 0 1 0-5 0c0 .81.7 1.8 0 2.5l-7 7c-.7.7-1.69 0-2.5 0a2.5 2.5 0 0 0 0 5c.28 0 .5.22.5.5a2.5 2.5 0 1 0 5 0c0-.81-.7-1.8 0-2.5Z"/></symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+  </defs>
+</svg>
+
+
+<!-- ==================== MENU BAR ==================== -->
+<header class="site-header">
+  <div class="wrap nav">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#transition">Medtech</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#regions">Regions</a></li>
+      <li><a href="#articles">Articles</a></li>
+    </ul>
+    <a class="btn btn-teal nav-cta" href="#articles">Read Articles <svg class="icon"><use href="#i-arrow"/></svg></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </div>
+</header>
+
+
+<main id="main">
+
+
+<!-- ==================== HERO ==================== -->
+<section class="hero" aria-labelledby="hero-title">
+  <span class="orb orb-1" aria-hidden="true"></span>
+  <span class="orb orb-2" aria-hidden="true"></span>
+
+
+  <svg class="ecg" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+    <path pathLength="1" d="M0 70 H210 L232 70 L250 38 L274 108 L298 12 L322 84 L340 70 H620 L642 70 L660 44 L682 100 L704 22 L726 80 L744 70 H1000 L1022 70 L1040 40 L1064 106 L1088 16 L1112 82 L1130 70 H1440"/>
+  </svg>
+
+
+  <div class="wrap hero-grid">
+    <div>
+      <h1 id="hero-title">Nadine Adam Chemtech and the Journey from Distribution to Medical Technology</h1>
+      <p class="lead">Nadine Adam Chemtech represents a business journey shaped by healthcare distribution, technical expertise, leadership and a continuing focus on medical technology in Mauritius and the wider Indian Ocean region.</p>
+      <div class="btn-row">
+        <a class="btn btn-sun" href="#portfolio">Explore Nadine Adam Journey <svg class="icon"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-line" href="#story">Story Behind Nadine Adam Chemtech</a>
+      </div>
+      <div class="pills" aria-label="Regional markets">
+        <span class="pill"><svg class="icon"><use href="#i-pin"/></svg>Mauritius</span>
+        <span class="pill"><svg class="icon"><use href="#i-pin"/></svg>Seychelles</span>
+        <span class="pill"><svg class="icon"><use href="#i-pin"/></svg>Madagascar</span>
+      </div>
+    </div>
+
+
+    <div class="route-wrap">
+      <ol class="route" aria-label="Chemtech to Medtech timeline">
+        <li><strong>1983</strong><span>Chemtech Group established in Mauritius</span></li>
+        <li><strong>1990</strong><span>Entry into medical devices</span></li>
+        <li><strong>Medtech</strong><span>The new name of Chemtech Medical</span></li>
+      </ol>
+    </div>
+  </div>
+
+
+  <svg class="hero-wave" viewBox="0 0 1440 130" preserveAspectRatio="none" aria-hidden="true">
+    <path style="fill:var(--shell)" d="M0,74 C180,128 340,124 540,84 C780,34 980,26 1180,70 C1290,94 1380,92 1440,74 L1440,130 L0,130 Z"/>
+  </svg>
+</section>
+
+
+<!-- ==================== FACT STRIP ==================== -->
+<div class="facts">
+  <div class="wrap">
+    <div class="facts-grid">
+      <div class="fact reveal"><div class="fi"><svg class="icon"><use href="#i-award"/></svg></div><b><span data-count="30">30</span>+</b><span>years of experience</span></div>
+      <div class="fact reveal"><div class="fi"><svg class="icon"><use href="#i-users"/></svg></div><b><span data-count="130">130</span>+</b><span>people at Medtech</span></div>
+      <div class="fact reveal"><div class="fi"><svg class="icon"><use href="#i-grid"/></svg></div><b><span data-count="10">10</span></b><span>specialist departments</span></div>
+      <div class="fact reveal"><div class="fi"><svg class="icon"><use href="#i-shield"/></svg></div><b>ISO 9001:2015</b><span>certified since 2018</span></div>
+      <div class="fact reveal"><div class="fi"><svg class="icon"><use href="#i-globe"/></svg></div><b><span data-count="3">3</span></b><span>markets: Mauritius, Seychelles and Madagascar</span></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ==================== INTRO ==================== -->
+<section class="section" aria-label="Introduction">
+  <div class="wrap split">
+    <div class="split-head">
+      <p class="intro-quote"><span>For customers, healthcare professionals and business stakeholders, the journey from Chemtech Medical to Medtech reflects an evolution in focus rather than a break with the past.</span></p>
+    </div>
+    <div>
+      <p>At the centre of this journey is Nadine Adam, a biotechnology engineer and business leader whose professional career has been closely connected with Chemtech and the development of its medical activities. Today, that medical technology business operates under the Medtech name, continuing the work established through Chemtech Medical. Medtech describes itself as the new name of Chemtech Medical, with the same team, brands and service commitments continuing under the new identity.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== THE STORY ==================== -->
+<section class="section section-white" id="story" aria-labelledby="story-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="story-title">The Story Behind Nadine Adam Chemtech</h2>
+      <div class="watermark" aria-hidden="true">1983</div>
+    </div>
+    <div>
+      <p>The wider Chemtech story began in Mauritius more than four decades ago. Chemtech Group states that it was established in 1983 and developed from a specialised chemical and technical supplier into a diversified Mauritian business serving healthcare and other sectors. Its history records the company's entry into medical devices in 1990, followed by further expansion into consumer goods and graphic supplies.</p>
+      <p>Within this broader journey, Nadine Adam became closely associated with the development of the medical business.</p>
+      <p>Her background in biotechnology engineering provided a technical foundation for working with healthcare products and technologies. Medtech identifies Nadine Adam as its CEO and Founder and notes that she has more than 30 years of experience, while also highlighting her training at the University of Technology of Compiègne in France.</p>
+      <p>Her professional journey illustrates how technical knowledge and business leadership can work together when building a specialist distribution operation.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== CHEMTECH MEDICAL TO MEDTECH ==================== -->
+<section class="section section-alt" id="transition" aria-labelledby="transition-title">
+  <div class="wrap">
+    <h2 id="transition-title" class="bar">From Chemtech to Medtech</h2>
+
+
+    <div class="flow" aria-hidden="true">
+      <div class="flow-step reveal"><strong>Chemtech</strong><span>Historical and organisational foundation</span></div>
+      <div class="flow-arrow"><svg class="icon"><use href="#i-arrow"/></svg></div>
+      <div class="flow-step reveal"><strong>Chemtech Medical</strong><span>The medical business built within that foundation</span></div>
+      <div class="flow-arrow"><svg class="icon"><use href="#i-arrow"/></svg></div>
+      <div class="flow-step now reveal"><strong>Medtech</strong><span>Current medical technology identity</span></div>
+    </div>
+
+
+    <div class="split">
+      <div>
+        <p>One of the most important developments in the company's recent journey has been the transition from Chemtech Medical to Medtech.</p>
+        <p>Medtech states that the name change reflects a stronger focus on medical technology. The company also explains that the legal contracting entity remains Chemtech Medical, while existing contracts, warranties and service arrangements continue.</p>
+      </div>
+      <div>
+        <p>This distinction is important for anyone researching Nadine Adam Chemtech today.</p>
+        <p>The Chemtech name remains part of the company's history and wider group structure, while Medtech provides the dedicated identity for its medical technology activities. For healthcare institutions and professional users, the transition is presented as continuity supported by a more focused medical technology identity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== WHAT MEDTECH DOES ==================== -->
+<section class="section before-dark" id="medtech" aria-labelledby="medtech-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="medtech-title">What Nadine Adam Medtech Does</h2>
+      <div class="btn-row">
+        <a class="btn btn-teal" href="#portfolio">View Specialties <svg class="icon"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <p>Nadine Adam Medtech is associated with the medical technology side of the business, supplying medical devices, equipment and consumables to healthcare organisations across Mauritius and the wider Indian Ocean region.</p>
+      <p>The current Medtech portfolio covers multiple medical specialties, including:</p>
+      <ul class="chips">
+        <li>Cardiology</li>
+        <li>Orthopedics</li>
+        <li>General surgery</li>
+        <li>Ophthalmology</li>
+        <li>Endoscopy</li>
+        <li>Anaesthesia and critical care</li>
+        <li>Urology</li>
+        <li>Gynecology</li>
+        <li>Radiology and imaging</li>
+        <li>Sterilization</li>
+        <li>Hospital furniture</li>
+      </ul>
+      <p>The company's published portfolio also includes cardiovascular solutions, surgical technologies, diagnostic equipment and other specialist medical products.</p>
+      <p>The role extends beyond simply supplying products. Medtech highlights technical assistance, customer care, training, delivery, installation and ongoing support as parts of its service model.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== SERVICE ==================== -->
+<section class="section section-dark" id="service" aria-labelledby="service-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="service-title">Medical Technology Built Around Service</h2>
+    </div>
+    <div>
+      <p>Healthcare equipment often requires more than procurement. Hospitals and clinical teams may need product training, technical assistance, installation, maintenance and support during actual use.</p>
+      <p>This is where the service philosophy associated with Nadine Adam Medtech Mauritius becomes important.</p>
+      <p>Medtech describes specialist teams working across areas such as endoscopic and theatre solutions, advanced surgical support, cardiovascular solutions, technical excellence, customer care, import and export, and quality and compliance. The organisation says it has more than 130 people working across ten specialist departments.</p>
+      <p>This structure allows the business to approach medical technology as a service relationship rather than simply a product transaction.</p>
+      <p>For healthcare professionals, that can mean support before, during and after equipment adoption. For business stakeholders, it demonstrates the operational capabilities required to maintain a specialist distribution business serving healthcare institutions.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== PORTFOLIO ==================== -->
+<section class="section after-dark" id="portfolio" aria-labelledby="portfolio-title">
+  <div class="wrap">
+    <h2 id="portfolio-title" class="bar">Nadine Adam Showscases Key Healthcare Specialties</h2>
+    <p class="portfolio-intro">The evolution of Nadine Adam Chemtech into a focused medical technology operation can also be seen through the breadth of its specialist portfolio.</p>
+
+
+    <div class="cards">
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-heart"/></svg></div>
+        <h3>Cardiovascular Care</h3>
+        <p>Medical technology for cardiovascular procedures and monitoring forms part of the published Medtech portfolio, supporting healthcare teams working across cardiac care.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-scissors"/></svg></div>
+        <h3>Surgical Solutions</h3>
+        <p>Surgical instruments, operating-room supplies, wound-care products and specialist technologies form part of the company's general surgery offering.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-monitor"/></svg></div>
+        <h3>Endoscopy and Theatre Technology</h3>
+        <p>Medtech provides solutions for endoscopy and operating theatres, supported by specialist teams working with healthcare professionals.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-bone"/></svg></div>
+        <h3>Orthopedics</h3>
+        <p>The portfolio includes joint replacement systems, trauma implants, surgical instruments and related orthopedic technologies.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-activity"/></svg></div>
+        <h3>Critical Care and Anaesthesia</h3>
+        <p>Medical equipment for anaesthesia and critical care includes patient monitoring and respiratory support technologies.</p>
+      </article>
+      <article class="card reveal">
+        <div class="card-icon"><svg class="icon"><use href="#i-eye"/></svg></div>
+        <h3>Ophthalmology and Imaging</h3>
+        <p>The business also supplies technologies supporting ophthalmic procedures, diagnostics and medical imaging.</p>
+      </article>
+    </div>
+
+
+    <p>This breadth reflects the development of a medical distribution platform designed to serve different clinical environments rather than a single healthcare specialty.</p>
+  </div>
+</section>
+
+
+<!-- ==================== LEADERSHIP ==================== -->
+<section class="section section-alt" id="leadership" aria-labelledby="leadership-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="leadership-title">Nadine Adam's Approach to Leadership</h2>
+    </div>
+    <div>
+      <p class="lead-line">The professional identity surrounding Nadine Adam is closely connected with values such as integrity, accountability, teamwork and excellence.</p>
+      <p>Medtech identifies these values as part of its organisational culture and also describes a leadership framework built around commitment, ownership, results and empowerment.</p>
+      <p>For a company operating in medical technology, these principles have practical importance. Healthcare distribution depends on reliable relationships between manufacturers, distributors, healthcare institutions, clinicians and technical teams.</p>
+      <p>The company's published approach therefore places emphasis on people as well as products.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== MAURITIUS / REGIONS ==================== -->
+<section class="section section-white before-dark" id="regions" aria-labelledby="regions-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="regions-title">Mauritius as the Foundation</h2>
+    </div>
+    <div>
+      <p>Nadine Adam Medtech Mauritius has developed from a Mauritian business base while serving healthcare requirements across the Indian Ocean region.</p>
+      <p>Medtech currently identifies Mauritius, Seychelles and Madagascar as its regional markets. The wider Chemtech Group is headquartered at Riche Terre Business Park in Mauritius, which also serves as an important distribution and operational base.</p>
+      <ul class="regions" aria-label="Regional markets">
+        <li class="reveal"><svg class="icon"><use href="#i-pin"/></svg>Mauritius</li>
+        <li class="reveal"><svg class="icon"><use href="#i-pin"/></svg>Seychelles</li>
+        <li class="reveal"><svg class="icon"><use href="#i-pin"/></svg>Madagascar</li>
+      </ul>
+      <p>This regional positioning gives the business a broader operating footprint while retaining Mauritius as its foundation.</p>
+      <p>The model combines local market knowledge with relationships with international medical technology manufacturers and specialist suppliers.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== QUALITY ==================== -->
+<section class="section section-dark" id="quality" aria-labelledby="quality-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="quality-title">Quality, Training and Technical Support</h2>
+    </div>
+    <div>
+      <p>Medical technology businesses are judged not only by the products they distribute but also by how effectively those products are introduced and supported.</p>
+      <p>Medtech states that it has maintained ISO 9001:2015 certification since 2018. Its published service offering also includes training and educational support for healthcare professionals, alongside technical and after-sales assistance.</p>
+      <p>For healthcare organisations, these capabilities can be important when adopting specialised technologies that require correct installation, training and continued technical support.</p>
+      <p>The emphasis on quality systems, specialist teams and customer support forms an important part of the company's development from a traditional distribution operation into a medical technology-focused organisation.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== A BUSINESS JOURNEY ==================== -->
+<section class="section after-dark" id="journey" aria-labelledby="journey-title">
+  <div class="wrap">
+    <h2 id="journey-title" class="bar">A Business Journey Worth Following</h2>
+    <p>The story of Nadine Adam Chemtech is ultimately a story of evolution.</p>
+    <p>What began within the broader Chemtech journey developed into a substantial medical business and later adopted the Medtech identity. The transition preserves the experience, relationships and operational knowledge built through Chemtech Medical while placing greater emphasis on medical technology and specialist healthcare support.</p>
+
+
+    <div class="audiences">
+      <div class="aud reveal"><div class="ai"><svg class="icon"><use href="#i-users"/></svg></div><p>For customers, the journey explains the continuity behind the Medtech name.</p></div>
+      <div class="aud reveal"><div class="ai"><svg class="icon"><use href="#i-plus"/></svg></div><p>For healthcare professionals, it provides a clearer picture of the company's specialist services.</p></div>
+      <div class="aud reveal"><div class="ai"><svg class="icon"><use href="#i-trend"/></svg></div><p>For business and investment audiences, it illustrates how an established distribution operation can develop through sector specialisation, technical capabilities, regional reach and service infrastructure.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== LOOKING AHEAD ==================== -->
+<section class="section section-alt" id="ahead" aria-labelledby="ahead-title">
+  <div class="wrap split">
+    <div class="split-head">
+      <h2 id="ahead-title">Looking Ahead with Medtech</h2>
+    </div>
+    <div>
+      <p>The next stage of the journey places medical technology at the centre.</p>
+      <p>Medtech's stated vision is to become a leading provider of medical solutions across Mauritius, Seychelles and Madagascar, supported by specialist teams, healthcare partnerships, technical expertise and a broad product portfolio.</p>
+      <p>Under Nadine Adam's leadership, the focus remains connected to the practical needs of healthcare professionals: access to medical technologies, appropriate technical support, training and dependable service.</p>
+      <p>That makes Nadine Adam Medtech Mauritius an important part of the continuing Chemtech story and of the company's broader development within the healthcare distribution sector.</p>
+      <div class="btn-row">
+        <a class="btn btn-teal" href="#articles">Read Articles <svg class="icon"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-line-dark" href="#portfolio">Explore the Achievements</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== TODAY ==================== -->
+<section class="section section-white" id="today" aria-labelledby="today-title">
+  <div class="wrap">
+    <h2 id="today-title" class="bar">Nadine Adam Chemtech Today</h2>
+    <p class="big-line">For people researching Nadine Adam Chemtech, the clearest way to understand the business is through its evolution.</p>
+    <div class="today-grid">
+      <p>Chemtech provides the historical and organisational foundation. Chemtech Medical represents the medical business built within that foundation. Medtech is the current medical technology identity, carrying forward the same established operation while placing healthcare technology at the centre of its positioning.</p>
+      <p>And behind this evolution is Nadine Adam, whose biotechnology background, industry experience and leadership have been closely connected with the development of the medical business.</p>
+      <p>Today, the journey continues through medical devices, specialist healthcare solutions, technical expertise, professional training and regional service across Mauritius, Seychelles and Madagascar.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ==================== ARTICLES / BLOG EMBED SECTION ====================
+     HOW TO ADD YOUR LINKS:
+     Scroll down to the <script> at the bottom of this file and edit the ARTICLES list.
+     Each item needs a title and a url. Add or remove items as you like.
+     NOTE: some websites block being shown inside an iframe. If a preview stays blank,
+     visitors can still click the "Read Article" button, which opens the link in a new tab.
+     ======================================================================= -->
+<section class="section section-alt before-dark" id="articles" aria-labelledby="articles-title">
+  <div class="wrap">
+    <div class="articles-head">
+      <div>
+        <h2 id="articles-title" class="bar">Articles and Blog Posts</h2>
+        <p>Read more about Nadine Adam, Chemtech and Medtech.</p>
+      </div>
+    </div>
+    <div class="embed-grid" id="embedGrid"></div>
+  </div>
+</section>
+
+
+</main>
+
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <p class="footer-title">Nadine Adam Chemtech</p>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#transition">Medtech</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#leadership">Leadership</a></li>
+      <li><a href="#regions">Regions</a></li>
+      <li><a href="#articles">Articles</a></li>
+    </ul>
+    <a class="btn btn-sun" href="#home">Back to Top</a>
+  </div>
+</footer>
+
+
+<button class="to-top" id="toTop" aria-label="Back to top"><svg class="icon"><use href="#i-arrow"/></svg></button>
+
+
+<script>
+/* ==========================================================
+   1) ARTICLE / BLOG EMBEDS  –  EDIT THIS LIST
+   Paste your article or blog links in the "url" fields.
+   ========================================================== */
+const ARTICLES = [
+  { title: "Nadine Adam Chemtech", url: "https://nadineadamchemtech.wixsite.com/mauritius/blog" },   // e.g. "https://nadineadamchemtech.wixsite.com/mauritius/blog"
+ 
+  { title: "Nadine Adam Chemtech to Nadine Adam Medtech", url: "https://nadineadammedtech.blogspot.com/2026/09/nadine-adam-chemtech-biography-from.html" },   // e.g. "https://nadineadammedtech.blogspot.com/2026/09/nadine-adam-chemtech-biography-from.html"
+  { title: "Nadine Adam Achievements and Journey", url: "https://nadineadamchemtech.wordpress.com/" }    // e.g. "https://nadineadamchemtech.wordpress.com/"
+ 
+];
+
+
+(function renderArticles(){
+  const grid = document.getElementById("embedGrid");
+  ARTICLES.forEach(function(item){
+    const card = document.createElement("article");
+    card.className = "embed-card reveal";
+
+
+    let host = "your-article-link.com";
+    if (item.url) { try { host = new URL(item.url).hostname.replace(/^www\./, ""); } catch(e){ host = item.url; } }
+
+
+    const bar = document.createElement("div");
+    bar.className = "embed-bar";
+    bar.innerHTML = "<i></i><i></i><i></i>";
+    const addr = document.createElement("em");
+    addr.textContent = host;
+    bar.appendChild(addr);
+
+
+    const frame = document.createElement("div");
+    frame.className = "embed-frame";
+
+
+    if (item.url) {
+      const iframe = document.createElement("iframe");
+      iframe.src = item.url;
+      iframe.title = item.title;
+      iframe.loading = "lazy";
+      iframe.referrerPolicy = "no-referrer-when-downgrade";
+      iframe.setAttribute("allowfullscreen", "");
+      frame.appendChild(iframe);
+    } else {
+      const empty = document.createElement("div");
+      empty.className = "embed-empty";
+      empty.innerHTML = '<svg class="icon"><use href="#i-link"/></svg><span>Add your article link in the ARTICLES list to show it here.</span>';
+      frame.appendChild(empty);
+    }
+
+
+    const body = document.createElement("div");
+    body.className = "embed-body";
+    const h3 = document.createElement("h3");
+    h3.textContent = item.title;
+    body.appendChild(h3);
+
+
+    if (item.url) {
+      const a = document.createElement("a");
+      a.className = "btn btn-teal";
+      a.href = item.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.innerHTML = 'Read Article <svg class="icon"><use href="#i-arrow"/></svg>';
+      body.appendChild(a);
+    }
+
+
+    card.appendChild(bar);
+    card.appendChild(frame);
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+})();
+
+
+/* ==========================================================
+   2) MOBILE MENU
+   ========================================================== */
+const toggle = document.getElementById("navToggle");
+const links  = document.getElementById("navLinks");
+toggle.addEventListener("click", function(){
+  const open = links.classList.toggle("open");
+  toggle.setAttribute("aria-expanded", open);
+  toggle.textContent = open ? "Close" : "Menu";
+});
+links.addEventListener("click", function(e){
+  if (e.target.tagName === "A") {
+    links.classList.remove("open");
+    toggle.setAttribute("aria-expanded", "false");
+    toggle.textContent = "Menu";
+  }
+});
+
+
+/* ==========================================================
+   3) ACTIVE MENU ITEM WHILE SCROLLING
+   ========================================================== */
+(function activeLinks(){
+  const map = {
+    home:"home", story:"story", transition:"transition", medtech:"transition", service:"transition",
+    portfolio:"portfolio", leadership:"leadership", regions:"regions", quality:"regions",
+    journey:"regions", ahead:"regions", today:"regions", articles:"articles"
+  };
+  const anchors = {};
+  document.querySelectorAll(".nav-links a").forEach(function(a){
+    anchors[a.getAttribute("href").slice(1)] = a;
+  });
+  const sections = Object.keys(map).map(function(id){ return document.getElementById(id); }).filter(Boolean);
+  if (!("IntersectionObserver" in window)) return;
+
+
+  const io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (entry.isIntersecting) {
+        Object.values(anchors).forEach(function(a){ a.classList.remove("active"); });
+        const target = anchors[map[entry.target.id]];
+        if (target) target.classList.add("active");
+      }
+    });
+  }, { rootMargin:"-40% 0px -55% 0px" });
+
+
+  sections.forEach(function(s){ io.observe(s); });
+})();
+
+
+/* ==========================================================
+   4) SCROLL PROGRESS BAR + BACK-TO-TOP BUTTON
+   ========================================================== */
+(function scrollUI(){
+  const bar = document.getElementById("progress");
+  const top = document.getElementById("toTop");
+  function update(){
+    const h = document.documentElement;
+    const max = h.scrollHeight - h.clientHeight;
+    const p = max > 0 ? h.scrollTop / max : 0;
+    bar.style.transform = "scaleX(" + p + ")";
+    top.classList.toggle("show", h.scrollTop > 700);
+  }
+  window.addEventListener("scroll", update, { passive:true });
+  update();
+  top.addEventListener("click", function(){ window.scrollTo({ top:0, behavior:"smooth" }); });
+})();
+
+
+/* ==========================================================
+   5) REVEAL CARDS ON SCROLL + ANIMATED COUNTERS
+   ========================================================== */
+(function reveal(){
+  const items = document.querySelectorAll(".reveal");
+  if (!("IntersectionObserver" in window)) { items.forEach(function(el){ el.classList.remove("reveal"); }); return; }
+
+
+  items.forEach(function(el){
+    const siblings = Array.prototype.filter.call(el.parentElement.children, function(c){ return c.classList.contains("reveal"); });
+    el.style.transitionDelay = (siblings.indexOf(el) % 3) * 100 + "ms";
+  });
+
+
+  const io = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      el.classList.add("in");
+      io.unobserve(el);
+      el.querySelectorAll("[data-count]").forEach(countUp);
+      setTimeout(function(){ el.classList.remove("reveal","in"); el.style.transitionDelay = ""; }, 1100);
+    });
+  }, { threshold:0.15 });
+  items.forEach(function(el){ io.observe(el); });
+
+
+  function countUp(node){
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const end = parseInt(node.getAttribute("data-count"), 10);
+    const start = performance.now(), dur = 1400;
+    (function tick(now){
+      const t = Math.min((now - start) / dur, 1);
+      node.textContent = Math.round(end * (1 - Math.pow(1 - t, 3)));
+      if (t < 1) requestAnimationFrame(tick);
+    })(start);
+  }
+})();
+</script>
+</body>
+</html>
+
+
+
+
+
